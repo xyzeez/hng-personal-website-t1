@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+    <title>Personal Website | HNG Task </title>
+  </head>
+  <body>
+    <header class="header container">
+      <img
+        src="./profile-pic.png"
+        class="header__img"
+        alt=""
+        data-testid="slackProfilePicture" />
+      <div class="header__inner">
+        <h1 class="heading header__heading">
+          Hi, I'm <span data-testid="slackDisplayName">Xyzeez</span>
+        </h1>
+        <div class="header__content">
+          <p class="text header__text">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+            </svg>
+            <a href="mailto:abdusamiiaa.dv@gmail.com" data-testid="slackEmail">
+              abdusamiiaa.dv@gmail.com
+            </a>
+          </p>
+          <p class="text header__text">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            <span data-testid="currentDay" id="weekDay">Monday</span>,
+            <span data-testid="currentTimeUTC" id="currUTC">00:00:00</span>
+          </p>
+        </div>
+      </div>
+    </header>
+    <main class="main container">
+      <h1 class="heading main__heading">Tech Goals for the Next Two Years</h1>
+      <div>
+        <p class="text main__text">
+          As a newbie in software development with a passion for continuous
+          learning and growth, I have set some ambitious goals for the next two
+          years. These goals are designed to help me deepen my expertise and
+          expand my skill set. Here's a detailed outline of my aspirations:
+        </p>
+        <ol class="text__list">
+          <li>
+            <span>1. Master React.js</span>
+            <span>
+              React.js has become a cornerstone of modern web development due to
+              its efficiency and flexibility in building user interfaces. My
+              goal is to master React.js by building complex applications,
+              exploring advanced features such as hooks, context API, and
+              server-side rendering with Next.js, and I hope
+              <a href="http://hng.tech/learn" data-testid="hngLink">
+                the HNG11 internship
+              </a>
+              would contribute massively to this goal.
+            </span>
+          </li>
+          <li>
+            <span>2. Master Node.js</span>
+            <span>
+              To become a well-rounded developer, mastering Node.js is crucial.
+              Node.js allows for efficient server-side scripting and is a key
+              component of many fullstack applications. My plan includes
+              developing robust, scalable backend services and APIs using
+              Node.js and Express.js, gaining a deep understanding of
+              asynchronous programming and event-driven architecture, and
+              working with databases like MongoDB and PostgreSQL to manage data
+              effectively in my Node.js applications.
+            </span>
+          </li>
+          <li>
+            <span>3. Hired as a Fullstack Developer</span>
+            <span>
+              Combining my frontend and backend skills, my aim is to transition
+              into a fullstack developer role by taking on projects that require
+              both frontend and backend development, and enhancing my
+              problem-solving abilities by tackling diverse technical challenges
+              and collaborating with cross-functional teams.
+            </span>
+          </li>
+          <li>
+            <span>4. Dive into App Development with React Native</span>
+            <span>
+              Expanding my horizons to mobile app development is the next
+              logical step. React Native, with its ability to create
+              cross-platform apps using React, is the perfect tool for this
+              journey.
+            </span>
+          </li>
+        </ol>
+      </div>
+    </main>
+    <footer class="footer container">
+      <ul class="footer__list">
+        <li>
+          <a href="http://keyword.dog/" data-testid="keywordLink">
+            keyword.dog
+          </a>
+        </li>
+        <li>
+          <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink">
+            scrapeanyweb.site
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
